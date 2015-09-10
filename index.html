@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>SRHDesigns: Home</title>
+        <link rel="stylesheet" href="CSS/indexCSS.css">
+        <meta name="description" content="SRHDesigns">
+        <meta name="author" content="Stephen Harlow">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script>
+            $(function() {
+
+                $("#header").load("HeaderHTML.html"); 
+                $("#footer").load("footer.html"); 
+                $.ajax({
+                    url : "Miscellaneous/About.txt",
+                    dataType: "text",
+                    success : function (data) {
+                        var st = String(data);
+                        st.replace(/(\r\n|\n|\r)/gm, "<br><br>");
+
+                        document.getElementById("AboutPara").innerHTML = st;
+                    }
+                });                
+            });
+        </script>
+    </head>
+    <header>
+        <div id="header"></div>
+    </header>
+    <body>
+        <div id = "WholePage">
+            <div id = "AboutMe" class="Block">
+                <h2 id = "AboutTitle">About Me</h2>
+                <div id = "AboutPara">
+                    
+                </div>
+            </div>
+            <div id = "Miscellaneous" class="Block">
+                <h3 id = "HobbiesTitle">Hobbies and Stuff</h3>
+                <div id="list6">
+                    <li>Programming</li>
+                    <li>Playing with my Dogs</li>
+                    <li>Thinking of new Ideas and Projects</li>
+                    <li>Relaxing</li>
+                    <li>Learning New Things</li>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div id="footer"></div>
+
+    </footer>
+
+</html>

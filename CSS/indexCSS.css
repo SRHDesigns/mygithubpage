@@ -1,0 +1,95 @@
+#HomeHeader{
+    background-color:darkgray;
+    border-radius: 15px;
+}
+#HomeHeader a:hover{
+    background-color:darkgray;
+
+}
+#WholePage{
+    width: 100%; 
+    overflow: hidden;
+}
+#AboutTitle{
+    background-color: dodgerblue;
+    font-size: 27px;
+    text-align: center;  
+    border-radius: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+#AboutMe{
+    width: 53%;
+    min-height: 100px;
+    float:left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#AboutPara{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size-adjust: auto;
+    font-size: 18px;
+    font-family: 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+    font-style: italic;
+}
+#Miscellaneous{
+    width: 33%; 
+    float:right;
+    margin-left: 0%;
+    margin-right: 4%;
+    padding-top: 2px;
+
+
+}
+#HobbiesTitle{
+    text-align: center;  
+    border-radius: 15px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color:darksalmon;
+
+
+}
+/* LIST #6 */
+#list6 { 
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#list6  li { 
+    list-style-type: square; 
+    color:lightslategray; 
+    font-size:18px;
+    list-style-position: inside; 
+    font-family: 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+    min-width: 112px;
+    padding-bottom: 10px;
+
+}
+
+.Block{
+    margin-top: 10px;
+
+}
+/* for 480px or less */
+@media screen and (max-width: 650px) {
+    #AboutMe{
+        clear: left;
+        float: none;
+        width: 70%;
+        margin-left: auto;
+        margin-right:auto;;
+    }
+    #Miscellaneous{
+        clear: left;
+        float: none;
+        width: 70%;
+        margin-left: auto;
+        margin-right:auto;;
+    }
+}

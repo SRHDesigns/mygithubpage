@@ -1,0 +1,57 @@
+#SkillsHeader{
+    background-color:darkgray;
+    border-radius: 15px;
+}
+#SkillsHeader a:hover{
+    background-color:darkgray;
+    color: #00F;
+}
+#Title{
+    text-align: center;
+    font-size: 24px;
+}
+#list ul {
+    margin: 0; 
+    padding: 0;
+    list-style-type: none;
+    border-radius: 10px;
+}
+.Row{   
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+}
+#list ul li{
+    
+    text-align: center;
+    border:1px solid black;
+    padding: 10px 10px;
+    margin: 3px;
+    margin-bottom: 9px;
+    color: black; 
+}
+/* horizontally center ul element */
+#list ul { text-align:center; }
+
+#Left {
+    min-width: 110px;
+    border-radius: 10px;
+    margin: 0; 
+    padding: 0;
+}
+#Right {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    vertical-align: middle;
+
+}
+#Right p{
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Palatino, 'Lucida Bright', Georgia, serif;
+    border: 2px ridge black;
+    border-radius: 10px;
+    justify-content: center;
+}

@@ -1,0 +1,75 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8"><title>SRHDesigns: Skills</title>
+        <link rel="stylesheet" href="CSS/skillsCSS.css">
+        <meta name="description" content="SRHDesigns">
+        <meta name="author" content="Stephen Harlow">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
+            function readTextFile(file)
+            {
+
+                $.ajax({
+                    url : "Miscellaneous/Languages.txt",
+                    dataType: "text",
+                    success : function (data) {
+                        var list = data.split('---');
+                        var item = list[file.id];
+                        var double = item.split('::');
+                        $('.Row').css('background-color', 'white');
+                        $('.Row').css('color', 'black');
+
+                        $(file).css('background-color', double[1]);
+
+                        document.getElementById("SkillsParagraph").innerHTML = double[2];
+                    }
+                });
+            }
+
+            $(document).ready(function() {
+                setTimeout(function() {
+                    $("#myid li:first-child").trigger('click');
+                },100);
+                $("#header").load("HeaderHTML.html");
+                $("#footer").load("footer.html"); 
+
+                $.ajax({
+                    url : "Miscellaneous/Languages.txt",
+                    dataType: "text",
+                    success : function (data) {
+                        var list = data.split('---');
+                        $('#list').append('<ul id=\'myid\'>');
+                        $.each( list, function( i, l ){
+                            var double = l.split('::');
+                            $( "#myid" ).append( "<li class = \"Row\" onmouseover=\"readTextFile(this)\"  onclick=\"readTextFile(this)\" id='"+i+"'>"+double[0].trim()+"</li>");
+                        });
+                        $('#list').append('</ul>');
+                    }
+                });  
+
+            });</script>
+    </head>
+    <header>
+        <div id="header">
+        </div>
+    </header>
+    <body>
+        <h3 id = "Title">Programming Languages</h3>
+        <div id = "Left">
+            <p id= "list">
+            </p>
+        </div>
+        <div id = "Right">
+            <p id='SkillsParagraph'>
+            </p>
+        </div>
+
+    </body>
+    <footer>
+        <div id="footer"></div>
+    </footer>
+
+
+</html>

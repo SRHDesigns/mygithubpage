@@ -1,0 +1,21 @@
+Objective-C::#ff0000::
+    I have used Objective-C to program multiple personal projects on my iOS devices. I have also used it to program the Friendswood High School Mighty Mustang Band App, which is currently in the Apple App Store. Out of all of the languages that I know, I am probably most experienced in Objective-C. This was my Main Goal when I first started Learning Programming Languages. And I was lucky enough to have parents that supported my endeavors and funded my goals.
+---
+HTML/CSS::#ff0000::
+    When I talk about the languages that I know, I tend to combine HTML and CSS into 'one' programming language. Although they are very different languages, in order to use one to its full extent, you really have to know the other. To be able to have responsive/stylish HTML, you have to use CSS. And to have high quality CSS, you must have great HTML content. If I remember correctly, I believe this is the first language that I learned. Although I mostly learned it as a stepping stone to my original goal: Objective-C.
+---
+Java::#ff0000::
+    After a second try, I was able to learn/understand Java. In Junior High, I attempted to teach myself Java, having already taught myself Objective-C and the basics of HTML/CSS. This attempt ended pretty quickly. Although my main goal was to create an Android Version of the Band App, I never really could get the hand of it. However, in AP CS in High School, I was finally able to understand and program in Java. I have become more advanced, although there is still a lot to learn.
+---
+Python::#ff0000::
+    My knowledge of Python mainly came during Pre-AP Computer Science in High School. Although I haven't used Python much recently, I know enough that I can manage a project if one came my way.
+---
+Javascript::#ff0000::
+    Javascript is a language that I sort-of learned as I was beginning to build my own Websites. I don't know an extensive amount of Javascript, but with all of online sources/communities, it was not difficult to pick up the basics, in addition to what I needed at the time
+---
+JQuery::#ff0000::
+    Another language that I know the basics of is JQuery. I learned this language as I was building more advanced, responsive sites. I currently know the basics and hope to learn more in the future.
+---
+C++::#ff0000::
+    My most recent addition to my Portfolio is C++. I learned this language during the Summer of 2015. The main drive behind this were my upcoming College Courses. Another driving force was the wide abundance of support and communities that are out there for C++. Although I only really know the basics at this point in time, I hope to gain more knowledgeable about the Language
+    

@@ -1,0 +1,25 @@
+
+#footerBody{
+  margin-top: 20px;        
+}img{
+    max-height: 25px;   
+    vertical-align: middle;
+}
+span{
+    vertical-align: middle;
+}
+#FootLink{
+    vertical-align: middle;
+}
+
+td{
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    display: table-cell;
+}
+table{
+    background-color:floralwhite;
+    border-radius: 10px;
+}
